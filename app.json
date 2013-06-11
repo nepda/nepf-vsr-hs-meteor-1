@@ -1,0 +1,72 @@
+{
+  "load": [
+    "app/packages/underscore/underscore.js",
+    "app/packages/meteor/server_environment.js",
+    "app/packages/meteor/helpers.js",
+    "app/packages/meteor/setimmediate.js",
+    "app/packages/meteor/timers.js",
+    "app/packages/meteor/errors.js",
+    "app/packages/meteor/fiber_helpers.js",
+    "app/packages/meteor/dynamics_nodejs.js",
+    "app/packages/meteor/url_server.js",
+    "app/packages/meteor/url_common.js",
+    "app/packages/deps/deps.js",
+    "app/packages/random/random.js",
+    "app/packages/json/json2.js",
+    "app/packages/ejson/ejson.js",
+    "app/packages/ejson/base64.js",
+    "app/packages/logging/logging.js",
+    "app/packages/check/match.js",
+    "app/packages/routepolicy/routepolicy.js",
+    "app/packages/livedata/stream_client_nodejs.js",
+    "app/packages/livedata/stream_client_common.js",
+    "app/packages/livedata/stream_server.js",
+    "app/packages/ordered-dict/ordered_dict.js",
+    "app/packages/minimongo/minimongo.js",
+    "app/packages/minimongo/selector.js",
+    "app/packages/minimongo/modify.js",
+    "app/packages/minimongo/diff.js",
+    "app/packages/minimongo/objectid.js",
+    "app/packages/livedata/writefence.js",
+    "app/packages/livedata/crossbar.js",
+    "app/packages/livedata/livedata_common.js",
+    "app/packages/livedata/livedata_connection.js",
+    "app/packages/livedata/livedata_server.js",
+    "app/packages/livedata/server_convenience.js",
+    "app/packages/mongo-livedata/mongo_driver.js",
+    "app/packages/mongo-livedata/local_collection_driver.js",
+    "app/packages/mongo-livedata/remote_collection_driver.js",
+    "app/packages/mongo-livedata/collection.js",
+    "app/packages/startup/startup_server.js",
+    "app/packages/handlebars/parse.js",
+    "app/packages/past/past.js",
+    "app/packages/insecure/insecure.js",
+    "app/myapp.js"
+  ],
+  "manifest": [
+    {
+      "path": "static_cacheable/bc1c5b7a6367d0293ea84e7248e42a6762ae3e44.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/bc1c5b7a6367d0293ea84e7248e42a6762ae3e44.js",
+      "size": 271410,
+      "hash": "bc1c5b7a6367d0293ea84e7248e42a6762ae3e44"
+    },
+    {
+      "path": "static_cacheable/da39a3ee5e6b4b0d3255bfef95601890afd80709.css",
+      "where": "client",
+      "type": "css",
+      "cacheable": true,
+      "url": "/da39a3ee5e6b4b0d3255bfef95601890afd80709.css",
+      "size": 0,
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "path": "app.html",
+      "where": "internal",
+      "hash": "afabdafa6455911904318ea74b217dad77a8a514"
+    }
+  ],
+  "release": "0.6.4"
+}
